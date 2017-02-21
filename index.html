@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wikipedia Search App</title>
+	
+	<meta charset="utf-8">	
+	<link rel="stylesheet" type="text/css" href="css/wikipediaApp.css">
+	<link rel="stylesheet" type="text/css" href="css/flag-icon.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+	<div class="container"><!-- Main container -->
+		<div class="language">
+			<button class="lang"><img src="flags/en.png" id="en" class="flag selected"></button>
+			<button class="lang"><img src="flags/es.png" id="es" class="flag"></button>
+			<button class="lang"><img src="flags/de.png" id="de" class="flag"></button>
+		</div>
+
+		<div class="random"> <!-- Random article link -->
+ 			<a class="redir" target="_blank" href="https://en.wikipedia.org/wiki/Special:Random"><span class="span">Go to a random article </span><i class="fa fa-random" aria-hidden="true"></i></a>
+		</div>
+
+		<div class="search"></div> <!-- Search div -->
+			<i class="fa fa-search" aria-hidden="true"></i>
+			<form onsubmit="return false">
+				<input class="input hide" type="text" placeholder="Search" name="search" autocomplete="off" autofocus="autofocus" onsubmit="onSave(); return false;" required>
+			</form>
+		</div>
+
+		<div class="results"> <!-- Results display -->
+
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/wikipediaApp.js"></script>
+</body>
+</html>

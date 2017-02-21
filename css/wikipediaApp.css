@@ -1,0 +1,93 @@
+body {
+	width: 800px;
+	background: #ccc;
+	margin: 0 auto;
+	color: black;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+button {
+	outline: none;
+}
+
+.container {
+	margin: 50px auto;
+}
+
+.language {
+	margin-bottom: 50px;
+}
+
+.lang {
+	background: none;
+	border: none;
+}
+
+.flag {
+	height: 45px;
+	width: auto;
+}
+
+.selected {
+	border: 2px solid black;
+}
+
+.random {
+	margin-bottom: 30px;
+}
+
+.fa-random:before {
+	font-size: .8em;
+}
+
+.fa-search:before {
+	font-size: 2em;
+}
+
+.hide {
+	display: none;
+}
+
+.input {
+	border: 3px solid orange;
+	border-radius: 30%;
+	text-align: center;
+	outline: none;
+	background: #155F21;
+	color: orange;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+.article {
+	height: auto;
+	width: 100%;
+	background: white;
+	border: 2px black solid;
+	border-radius: 10px;
+	color: black;
+	text-align: justify;
+	padding: 0 10px 5px 10px;
+	margin: 20px auto;
+}
+
+.title {
+	text-align: center;
+	font-size: 1em;
+}
+
+.text {
+	font-size: 1em;
+}
+
+.link {
+	color: #3e9294;
+}
+
+.fa-arrow-right:before {
+	font-size: .7em;
+}
